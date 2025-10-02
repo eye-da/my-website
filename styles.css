@@ -13,18 +13,16 @@ body {
     text-align: center;            
 }
 
-
-
 nav {
     display: flex;               
     justify-content: center;     
-    gap: 30px;                  
+    gap: 20px;                  
 }
 
 nav a {
     display: block;           
     width: 150px;              
-    margin: 10px auto;           
+    margin: 10px;           
     border: 2px solid #E1ACAC;
     padding: 2px;
     text-decoration: none;
