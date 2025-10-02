@@ -1,0 +1,17 @@
+nav {
+    display: flex;               
+    justify-content: center;     
+    gap: 20px;                  
+}
+
+nav a {
+    display: block;           
+    width: 90px;              
+    margin: 10px auto;           
+    border: 2px solid #F2AEBB;
+    padding: 10px;
+    text-decoration: none;
+    color: #F2AEBB;
+    text-align: center;         
+    border-radius:10px;
+}
