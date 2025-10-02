@@ -1,3 +1,20 @@
+body {
+    margin: 0;      
+    padding: 0;
+}
+
+.hero {
+    background-image: url('./assets/cotton\ flowers.png ');
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;  
+    width: 100%;                   
+    padding: 20px 0;              
+    text-align: center;            
+}
+
+
+
 nav {
     display: flex;               
     justify-content: center;     
@@ -8,17 +25,21 @@ nav a {
     display: block;           
     width: 150px;              
     margin: 10px auto;           
-    border: 2px solid #F2AEBB;
-    padding: 20px;
+    border: 2px solid #E1ACAC;
+    padding: 2px;
     text-decoration: none;
-    color: #F2AEBB;
+    color: #CA8787;
     text-align: center;         
     border-radius:10px;
-    font-size: 35px
+    font-size: 30px
 }
 
 nav a:hover {
-    background-color: #F2AEBB; 
+    background-color: #A87676; 
     color: white;              
 }
 
+.hero h1{
+    color: #CA8787;
+    text-align:center;
+}
